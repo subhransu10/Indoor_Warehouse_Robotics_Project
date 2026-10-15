@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/eccb5ec0-518e-43f4-a1fd-f3bfda473064
+
 # Warehouse Robotics Project
 
 **Platform:** Unity 2022.3.62f3  
@@ -179,6 +183,5 @@ The final demonstration should show the assigned functionality working in the ex
 
 Click the preview below to watch the warehouse simulation.
 
-[<img src="Assets/demo_preview.png" width="400" alt="Warehouse Demo">](https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/Video%20Pro_Ware.mp4)
 
 **Important:** The evaluation will focus on correct functionality, integration with the provided project, and the student's understanding of their implementation. Unnecessary complexity is not expected.
