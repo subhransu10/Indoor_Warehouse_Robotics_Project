@@ -12,8 +12,10 @@ The objective of this project is to develop and extend a warehouse robotics simu
 The Unity environment, a sample operator interface, and a basic robot URDF model (with attached sensors) are already provided. Students will implement specific functionalities related to robot control, environment interaction, sensor visualization, static/dynamic obstacle visualization, and operator interaction.
 
 The goal is **to extend the existing simulation rather than build a new project from scratch**.
+<p align="center">
+  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/Main%20Poster.png" width="100%">
+</p>
 
-*[[](https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/Main%20Poster.png)]*
 
 ## 2. Getting Started
 
@@ -73,7 +75,9 @@ Locate the following objects and components:
 
 **Note:** Some components may be located under child GameObjects or attached as scripts in the Inspector.
 
-*[Insert Screenshot 3: Unity Hierarchy showing the relevant objects]*
+<p align="center">
+  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/hierarchy.png" width="100%">
+</p>
 
 ## 3. Student Tasks
 
