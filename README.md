@@ -179,9 +179,4 @@ Each student must submit:
 
 The final demonstration should show the assigned functionality working in the existing warehouse scene and, where applicable, integrated with the other modules.
 
-## 7. Project Demo
-
-Click the preview below to watch the warehouse simulation.
-
-
 **Important:** The evaluation will focus on correct functionality, integration with the provided project, and the student's understanding of their implementation. Unnecessary complexity is not expected.
