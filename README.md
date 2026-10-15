@@ -76,7 +76,7 @@ Locate the following objects and components:
 **Note:** Some components may be located under child GameObjects or attached as scripts in the Inspector.
 
 <p align="center">
-  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/hierarchy.png" width="100%">
+  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/hierarchy.png" width="50%">
 </p>
 
 ## 3. Student Tasks
@@ -139,7 +139,10 @@ The project is divided into four modules. Each student is responsible for implem
 
 **Expected Result:** An intuitive and functional operator interface for monitoring and interacting with the Husky robot.
 
-*[Insert Screenshot 4: Example of the UI and relevant module settings]*
+<p align="center">
+  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/interface.png" width="100%">
+</p>
+
 
 ## 4. General Requirements
 
@@ -171,5 +174,11 @@ Each student must submit:
 3. **Final Presentation and Report:** A concise explanation of the implementation, testing, results, and any limitations.
 
 The final demonstration should show the assigned functionality working in the existing warehouse scene and, where applicable, integrated with the other modules.
+
+## 7. Project Demo
+
+Click the preview below to watch the warehouse simulation.
+
+[<img src="Assets/demo_preview.png" width="400" alt="Warehouse Demo">](https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/Video%20Pro_Ware.mp4)
 
 **Important:** The evaluation will focus on correct functionality, integration with the provided project, and the student's understanding of their implementation. Unnecessary complexity is not expected.
