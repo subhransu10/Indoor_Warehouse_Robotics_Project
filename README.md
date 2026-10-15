@@ -13,7 +13,7 @@ The Unity environment, a sample operator interface, and a basic robot URDF model
 
 The goal is **to extend the existing simulation rather than build a new project from scratch**.
 
-*[Insert Screenshot 1: Overview of the warehouse scene with the Husky robot]*
+*[[](https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/Main%20Poster.png)]*
 
 ## 2. Getting Started
 
