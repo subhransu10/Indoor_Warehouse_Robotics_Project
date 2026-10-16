@@ -143,9 +143,7 @@ The project is divided into four modules. Each student is responsible for implem
 
 **Expected Result:** An intuitive and functional operator interface for monitoring and interacting with the Husky robot.
 
-<p align="center">
-  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/interface.png" width="100%">
-</p>
+<img width="1212" height="937" alt="Screenshot 2026-10-16 104601" src="https://github.com/user-attachments/assets/e5bcc646-647f-4352-92c8-e8d2eb36f2a8" />
 
 
 ## 4. General Requirements
