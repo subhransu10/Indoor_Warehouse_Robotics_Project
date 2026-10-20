@@ -85,7 +85,7 @@ Locate the following objects and components:
 
 ## 3. Student Tasks
 
-The project is divided into four modules. Each student is responsible for implementing and testing their assigned module.
+The project is divided into four modules. Each student is responsible for implementing and testing their assigned module.So as you can see in the screenshot above, Student 1 can use 01_CameraModule (if he/she is working on the camera) and branch all the actors/prefabs in it and so on. This would allow for an easier integration of the modules and also would help the tutors to understand the modules and their functionalities.
 
 ### Student 1 — Robot Control and Environment
 
