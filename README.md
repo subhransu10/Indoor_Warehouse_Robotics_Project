@@ -1,4 +1,4 @@
-
+Please make sure you are in the correct branch that matches your course.
 
 https://github.com/user-attachments/assets/eccb5ec0-518e-43f4-a1fd-f3bfda473064
 
