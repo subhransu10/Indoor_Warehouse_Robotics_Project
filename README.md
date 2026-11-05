@@ -118,7 +118,7 @@ The project is divided into four modules. Each student is responsible for implem
 **Objective:** Distinguish stationary and moving objects within the warehouse.
 
 **Tasks:**
-- Add stationary and moving objects (e.g., vehicles and pedestrians) to the environment.
+- Add stationary and moving objects (e.g., vehicles and pedestrians) to the environment. Note that they are already present in the template provided. So feel free to place them and multiply as per the task requirements.
 - Implement object-level visualization using different colors or markers.
 - Visualize static and moving point-cloud data when available.
 - Provide a toggle to show or hide static and dynamic elements.
