@@ -1,4 +1,4 @@
-
+# Please make sure that you are on the right branch before following the instructions.
 
 https://github.com/user-attachments/assets/eccb5ec0-518e-43f4-a1fd-f3bfda473064
 
@@ -87,18 +87,18 @@ Locate the following objects and components:
 
 The project is divided into four modules. Each student is responsible for implementing and testing their assigned module.So as you can see in the screenshot above, Student 1 can use 01_CameraModule (if he/she is working on the camera) and branch all the actors/prefabs in it and so on. This would allow for an easier integration of the modules and also would help the tutors to understand the modules and their functionalities.
 
-### Student 1 — Robot Control and Environment
+### Student 1 — Robot Control Software
 
-**Objective:** Enhance the warehouse environment and implement robot movement and navigation.
+**Objective:** Designing of a control stack.
 
 **Tasks:**
 - Implement forward, backward, and rotational movement using WASD.
-- Ensure that the robot follows differential-drive kinematics.
-- Implement stopping when an obstacle or collision is detected.
-- Introduce additional obstacles and/or expand the existing environment.
-- Test robot movement in both manual and simple autonomous navigation modes (e.g., waypoint following).
+- Build a small state machine: Idle, Manual, Auto, Emergency Stop.
+- Stop on collision or lost command signal (simple timeout/watchdog).
+- Waypoint following in auto mode.
+- Measure and report control loop update rate and response delay.
 
-**Expected Result:** A controllable Husky robot capable of navigating the warehouse manually and autonomously while responding to obstacles.
+**Expected Result:** A reliable, well-structured controller with basic timing measurements.
 
 ### Student 2 — Sensor (Camera and LiDAR) and Map Visualization
 
@@ -106,10 +106,9 @@ The project is divided into four modules. Each student is responsible for implem
 
 **Tasks:**
 - Display a point-cloud map (`/pcd_map`).
-- Display a voxel map (`/voxel_map_pcd`).
-- Implement controls to enable or disable each visualization.
-- Allow adjustment of visualization density or appearance.
-- Implement a scenario-based sensor visualization feature. For example, in low-light conditions, the interface should automatically prioritize LiDAR visualization over the camera feed. Students may propose an alternative relevant scenario.
+- Show an on-screen FPS and point-count readout.
+- Adaptive feature: automatically reduce density when FPS drops (or favor LiDAR in low light).
+- Implement a scenario-based sensor visualization feature. For example, in low-light conditions, the interface should automatically prioritize LiDAR visualization over the camera feed. You are free to propose an alternative relevant scenario.
 
 **Expected Result:** A Unity interface for visualizing sensor and map data, including an adaptive visualization feature.
 
@@ -118,7 +117,7 @@ The project is divided into four modules. Each student is responsible for implem
 **Objective:** Distinguish stationary and moving objects within the warehouse.
 
 **Tasks:**
-- Add stationary and moving objects (e.g., vehicles and pedestrians) to the environment.
+- Add stationary and moving objects (e.g., vehicles and pedestrians) to the environment. Note that they are already present in the template provided. So feel free to place them and multiply as per the task requirements.
 - Implement object-level visualization using different colors or markers.
 - Visualize static and moving point-cloud data when available.
 - Provide a toggle to show or hide static and dynamic elements.
@@ -131,7 +130,7 @@ The project is divided into four modules. Each student is responsible for implem
 
 **Note:** Developing or training a moving-object segmentation model is not required. Simulated or predefined object classifications may be used.
 
-### Student 4 — Operator Interface
+### Student 4 — Operator Interface & Networking
 
 **Objective:** Improve the robot operator's interaction with the simulation.
 
@@ -139,6 +138,7 @@ The project is divided into four modules. Each student is responsible for implem
 - Implement or extend camera adjustment controls using the provided sample UI canvas (`StudentUI_Canvas`).
 - Add interface elements for controlling visualization modes.
 - Improve the interface to simplify teleoperation and reduce operator workload.
+- Log telemetry to a CSV/SQLite file with a basic replay.
 - Display useful robot or system status information.
 
 **Expected Result:** An intuitive and functional operator interface for monitoring and interacting with the Husky robot.
