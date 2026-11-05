@@ -17,7 +17,7 @@ The Unity environment, a sample operator interface, and a basic robot URDF model
 
 The goal is **to extend the existing simulation rather than build a new project from scratch**.
 <p align="center">
-  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/Main%20Poster.png" width="100%">
+  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/VRxRobotics2627/Main%20Poster.png" width="100%">
 </p>
 
 
@@ -26,7 +26,7 @@ The goal is **to extend the existing simulation rather than build a new project 
 ### 2.1 Project Setup
 
 1. Download and install **Unity 2022.3.62f3** using [Unity Hub](https://unity.com/download).
-2. Download the project from this [OneDrive link](). Request access from the instructor if necessary.
+2. Download the project from this [OneDrive link](https://unigeit-my.sharepoint.com/:u:/r/personal/s5302091_studenti_unige_it/Documents/Project%20Proposals%2026_27/Project_Warehouse.zip?d=w048a87aff3224994bef74bb58906dfa8&csf=1&web=1&e=M26jCo). Request access from the instructor if necessary.
 3. Open the project in Unity Hub and load the `Environment_Warehouse` scene (if it is not already open).
 
 ### 2.2 Required Packages
@@ -80,7 +80,7 @@ Locate the following objects and components:
 **Note:** Some components may be located under child GameObjects or attached as scripts in the Inspector.
 
 <p align="center">
-  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/main/hierarchy.png" width="50%">
+  <img src="https://github.com/subhransu10/Indoor_Warehouse_Robotics_Project/blob/VRxRobotics2627/hierarchy.png" width="50%">
 </p>
 
 ## 3. Student Tasks
